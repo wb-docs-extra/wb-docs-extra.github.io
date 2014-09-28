@@ -1,0 +1,32 @@
+# Dependencies
+highlighter:    pygments
+markdown:       redcarpet
+redcarpet:
+    extensions: [
+        'no_intra_emphasis',
+        'fenced_code_blocks',
+        'autolink',
+        'strikethrough',
+        'superscript',
+        'with_toc_data',
+        'tables',
+        'hardwrap'
+    ]
+
+
+# Setup
+title:          'Extra'
+tagline:        'Documentation for Extra apps and projects.'
+description:    'This site contains documentation for the universe of Extra apps and projects.'
+baseurl:        /
+future:         true
+paginate:       30
+theme:          'theme-base-09'
+
+
+# Permalinks
+permalink:      pretty
+
+
+# Exclude non-site files
+exclude: ['Gemfile', 'Gemfile.lock', 'README.md']
