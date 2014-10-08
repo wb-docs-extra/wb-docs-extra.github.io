@@ -11,7 +11,7 @@ title: Feeds
 + __rss__ - http://en.wikipedia.org/wiki/RSS
 + __mrss__ - http://en.wikipedia.org/wiki/Media_RSS
 
-*Unless otherwise noted, if the URI pattern contains `{feed_type}` than any of the above types will work.*
+*Unless otherwise noted, if the URI pattern contains `{feed_type}`, then any of the above types will work.*
 
 
 ###### Content Types:
@@ -20,7 +20,7 @@ title: Feeds
 + __posts__ - Currently renders only Extra articles.  *May include other content types in the future.*
 + __videos__ - May include Extra Kaltura videos, YouTube videos or playlists and Vine videos.
 
-*Unless otherwise noted, if the URI pattern contains `{content_type}` than any of the above types will work.*
+*Unless otherwise noted, if the URI pattern contains `{content_type}`, then any of the above types will work.*
 
 
 ###### Paging:
